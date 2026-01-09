@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: admin
+      changes:
+        - sqlFile:
+            path: migrations/001_add_users_table.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: 002
+      author: admin
+      changes:
+        - sqlFile:
+            path: migrations/002_add_gym_tables.sql
+            relativeToChangelogFile: true
+            
+  - changeSet:
+      id: 003
+      author: admin
+      changes:
+        - sqlFile:
+            path: migrations/003_add_users_gym_relationship.sql
+            relativeToChangelogFile: true
+            
+  - changeSet:
+      id: 004
+      author: admin
+      changes:
+        - sqlFile:
+            path: migrations/004_add_api_keys.sql
+            relativeToChangelogFile: true

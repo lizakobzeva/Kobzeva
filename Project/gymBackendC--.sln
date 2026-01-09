@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1892261F-EA2E-41AF-8F32-BD63831D8C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6D669538-7BEA-4C53-939C-B40A0B731688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gymBackendC--.Tests", "gymBackendC--.Tests\gymBackendC--.Tests.csproj", "{5D8D9226-0185-41EA-AEB8-FB6D698C541F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gymBackendC--.WebApi", "gymBackendC--.WebApi\gymBackendC--.WebApi.csproj", "{B17E80AE-853C-41F5-8A4D-B0BBD036A89E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D8D9226-0185-41EA-AEB8-FB6D698C541F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8D9226-0185-41EA-AEB8-FB6D698C541F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8D9226-0185-41EA-AEB8-FB6D698C541F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8D9226-0185-41EA-AEB8-FB6D698C541F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17E80AE-853C-41F5-8A4D-B0BBD036A89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17E80AE-853C-41F5-8A4D-B0BBD036A89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17E80AE-853C-41F5-8A4D-B0BBD036A89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17E80AE-853C-41F5-8A4D-B0BBD036A89E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D8D9226-0185-41EA-AEB8-FB6D698C541F} = {6D669538-7BEA-4C53-939C-B40A0B731688}
+		{B17E80AE-853C-41F5-8A4D-B0BBD036A89E} = {1892261F-EA2E-41AF-8F32-BD63831D8C79}
+	EndGlobalSection
+EndGlobal
